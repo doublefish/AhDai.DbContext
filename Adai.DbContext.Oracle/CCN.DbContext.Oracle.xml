@@ -4,54 +4,54 @@
         <name>Adai.DbContext.Oracle</name>
     </assembly>
     <members>
-        <member name="T:Adai.DbContext.Oracle.SqlDbContext">
+        <member name="T:Adai.DbContext.Oracle.OracleDbContext">
             <summary>
-            SqlDbContext
+            OracleDbContext
             </summary>
         </member>
-        <member name="P:Adai.DbContext.Oracle.SqlDbContext.EventId">
+        <member name="P:Adai.DbContext.Oracle.OracleDbContext.EventId">
             <summary>
             事件Id
             </summary>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.#ctor(System.String)">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.#ctor(System.String)">
             <summary>
             构造函数
             </summary>
             <param name="eventId">事件Id</param>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.#ctor(System.String,System.String)">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.#ctor(System.String,System.String)">
             <summary>
             构造函数
             </summary>
             <param name="eventId">事件Id</param>
             <param name="connectionString"></param>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.CreateConnection">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.CreateConnection">
             <summary>
             CreateConnection
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.CreateCommand">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.CreateCommand">
             <summary>
             CreateCommand
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.CreateDataAdapter">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.CreateDataAdapter">
             <summary>
             CreateDataAdapter
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.CreateParameter">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.CreateParameter">
             <summary>
             CreateParameter
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Adai.DbContext.Oracle.SqlDbContext.BeforeExecute(System.Data.IDbCommand)">
+        <member name="M:Adai.DbContext.Oracle.OracleDbContext.BeforeExecute(System.Data.IDbCommand)">
             <summary>
             执行之前
             </summary>

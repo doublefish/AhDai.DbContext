@@ -4,9 +4,9 @@ using System.Data;
 namespace Adai.DbContext.Oracle
 {
 	/// <summary>
-	/// SqlDbContext
+	/// OracleDbContext
 	/// </summary>
-	public sealed class SqlDbContext : DbContext, IDbContext
+	public sealed class OracleDbContext : DbContext, IDbContext
 	{
 		/// <summary>
 		/// 事件Id
@@ -17,7 +17,7 @@ namespace Adai.DbContext.Oracle
 		/// 构造函数
 		/// </summary>
 		/// <param name="eventId">事件Id</param>
-		public SqlDbContext(string eventId) : this(eventId, null)
+		public OracleDbContext(string eventId) : this(eventId, null)
 		{
 		}
 
@@ -26,7 +26,7 @@ namespace Adai.DbContext.Oracle
 		/// </summary>
 		/// <param name="eventId">事件Id</param>
 		/// <param name="connectionString"></param>
-		public SqlDbContext(string eventId, string connectionString) : base(Config.DbType.Oracle, connectionString)
+		public OracleDbContext(string eventId, string connectionString) : base(Config.DbType.Oracle, connectionString)
 		{
 			EventId = eventId;
 		}
