@@ -10,13 +10,13 @@
 		<PackageReleaseNotes>无</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<RepositoryUrl>https://github.com/doublefish/Adai.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/doublefish/Adai.DbContext.git</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<Description>数据库访问基础类库-SQLite</Description>
+		<Description>数据库访问基础类库 - SQLite</Description>
 		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://github.com/doublefish/Adai/</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
 		<PackageIcon></PackageIcon>
-		<PackageTags>Adai.DbContext.SQLite</PackageTags>
+		<PackageTags>DbContext SQLite Adai.DbContext.SQLite</PackageTags>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -14,9 +14,9 @@
 		<RepositoryType>git</RepositoryType>
 		<Description>数据库访问基础类库</Description>
 		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://github.com/doublefish/Adai/</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
 		<PackageIcon></PackageIcon>
-		<PackageTags>Adai.DbContext</PackageTags>
+		<PackageTags>DbContext Adai.DbContext</PackageTags>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
