@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext.Test", "Adai.DbContext.Test\Adai.DbContext.Test.csproj", "{1E637BC3-0A94-4D71-8AC3-43FE70B42EE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext", "Adai.DbContext\Adai.DbContext.csproj", "{624425B8-2CD9-45D3-9C48-D93CA59EE713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext.MySql", "Adai.DbContext.MySql\Adai.DbContext.MySql.csproj", "{20BEC324-C973-4CEF-B9C6-8C20228D5110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext.Oracle", "Adai.DbContext.Oracle\Adai.DbContext.Oracle.csproj", "{E2306FF1-C25F-47B9-8606-12B5025E4473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext.SqlClient", "Adai.DbContext.SqlClient\Adai.DbContext.SqlClient.csproj", "{FDF5175F-04CF-4D63-BFBC-DE3F6D894B2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adai.DbContext.SQLite", "Adai.DbContext.SQLite\Adai.DbContext.SQLite.csproj", "{910941A8-F9D7-4180-82E1-2DF7BC00BBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41B4B254-52CD-44CF-96E1-392D91AFD3C9}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.txt = nuget.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E637BC3-0A94-4D71-8AC3-43FE70B42EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E637BC3-0A94-4D71-8AC3-43FE70B42EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E637BC3-0A94-4D71-8AC3-43FE70B42EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E637BC3-0A94-4D71-8AC3-43FE70B42EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624425B8-2CD9-45D3-9C48-D93CA59EE713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624425B8-2CD9-45D3-9C48-D93CA59EE713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624425B8-2CD9-45D3-9C48-D93CA59EE713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624425B8-2CD9-45D3-9C48-D93CA59EE713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BEC324-C973-4CEF-B9C6-8C20228D5110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BEC324-C973-4CEF-B9C6-8C20228D5110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BEC324-C973-4CEF-B9C6-8C20228D5110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BEC324-C973-4CEF-B9C6-8C20228D5110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2306FF1-C25F-47B9-8606-12B5025E4473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2306FF1-C25F-47B9-8606-12B5025E4473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2306FF1-C25F-47B9-8606-12B5025E4473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2306FF1-C25F-47B9-8606-12B5025E4473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF5175F-04CF-4D63-BFBC-DE3F6D894B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF5175F-04CF-4D63-BFBC-DE3F6D894B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF5175F-04CF-4D63-BFBC-DE3F6D894B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF5175F-04CF-4D63-BFBC-DE3F6D894B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910941A8-F9D7-4180-82E1-2DF7BC00BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910941A8-F9D7-4180-82E1-2DF7BC00BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910941A8-F9D7-4180-82E1-2DF7BC00BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910941A8-F9D7-4180-82E1-2DF7BC00BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF4FD858-1891-4E4B-B49D-8030D6D7697B}
+	EndGlobalSection
+EndGlobal

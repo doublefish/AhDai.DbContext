@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+		<Authors>Shuang Yu</Authors>
+		<Company>Adai</Company>
+		<Version>2.1.0.3</Version>
+		<AssemblyVersion>2.1.0.3</AssemblyVersion>
+		<FileVersion>2.1.0.3</FileVersion>
+		<PackageReleaseNotes>无</PackageReleaseNotes>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/doublefish/Adai.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>数据库访问基础类库</Description>
+		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
+		<PackageProjectUrl>https://github.com/doublefish/Adai/</PackageProjectUrl>
+		<PackageIcon></PackageIcon>
+		<PackageTags>Adai.DbContext</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>Adai.DbContext.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>Adai.DbContext.xml</DocumentationFile>
+	</PropertyGroup>
+
+</Project>

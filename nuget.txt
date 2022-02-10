@@ -1,0 +1,13 @@
+oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu
+
+
+# อฦหอ
+dotnet nuget push Adai.DbContext/bin/Release/Adai.DbContext.2.1.0.3.nupkg -k oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu -s https://www.nuget.org/
+
+dotnet nuget push Adai.DbContext.MySql/bin/Release/Adai.DbContext.MySql.2.1.0.3.nupkg -k oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu -s https://www.nuget.org/
+
+dotnet nuget push Adai.DbContext.SQLite/bin/Release/Adai.DbContext.SQLite.2.1.0.3.nupkg -k oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu -s https://www.nuget.org/
+
+dotnet nuget push Adai.DbContext.Oracle/bin/Release/Adai.DbContext.Oracle.1.0.0.0.nupkg -k oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu -s https://www.nuget.org/
+
+dotnet nuget push Adai.DbContext.SqlClient/bin/Release/Adai.DbContext.SqlClient.1.0.0.0.nupkg -k oy2eyiafikjo2ivlkyyqlud7fsjqroxevgwwdzlnviduiu -s https://www.nuget.org/

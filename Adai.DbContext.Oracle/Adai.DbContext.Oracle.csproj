@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+		<Authors>Shuang Yu</Authors>
+		<Company>CCN</Company>
+		<Version>1.0.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<PackageReleaseNotes>无</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RepositoryUrl>https://gitlab.yesno.com.cn/base/ccn.dbcontext</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>数据库访问基础类库 - Oracle</Description>
+		<Copyright>© CCN. All rights reserved.</Copyright>
+		<PackageProjectUrl>http://www.yesno.com.cn/</PackageProjectUrl>
+		<PackageIcon></PackageIcon>
+		<PackageTags>CCN DbContext Oracle</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>CCN.DbContext.Oracle.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>CCN.DbContext.Oracle.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Adai.DbContext" Version="2.1.0.3" />
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.50" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1' ">
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0' ">
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0' ">
+	</ItemGroup>
+
+</Project>

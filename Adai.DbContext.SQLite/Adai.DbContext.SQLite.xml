@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Adai.DbContext.SQLite</name>
+    </assembly>
+    <members>
+        <member name="T:Adai.DbContext.SQLite.SQLiteDbContext">
+            <summary>
+            SQLiteDbContext
+            </summary>
+        </member>
+        <member name="P:Adai.DbContext.SQLite.SQLiteDbContext.EventId">
+            <summary>
+            事件Id
+            </summary>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="eventId"></param>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="eventId">事件Id</param>
+            <param name="connectionString"></param>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.CreateConnection">
+            <summary>
+            CreateConnection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.CreateCommand">
+            <summary>
+            CreateCommand
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.CreateDataAdapter">
+            <summary>
+            CreateDataAdapter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.CreateParameter">
+            <summary>
+            CreateParameter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Adai.DbContext.SQLite.SQLiteDbContext.BeforeExecute(System.Data.IDbCommand)">
+            <summary>
+            执行之前
+            </summary>
+            <param name="command"></param>
+        </member>
+    </members>
+</doc>
