@@ -7,16 +7,16 @@
 		<Version>2.1.0.3</Version>
 		<AssemblyVersion>2.1.0.3</AssemblyVersion>
 		<FileVersion>2.1.0.3</FileVersion>
+		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
+		<Description>数据库访问基础类库</Description>
 		<PackageReleaseNotes>无</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<RepositoryUrl>https://github.com/doublefish/Adai.git</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<Description>数据库访问基础类库</Description>
 		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
 		<PackageIcon></PackageIcon>
 		<PackageTags>DbContext Adai.DbContext</PackageTags>
+		<RepositoryUrl>https://github.com/doublefish/Adai.DbContext</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

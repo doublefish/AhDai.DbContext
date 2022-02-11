@@ -7,16 +7,16 @@
 		<Version>1.0.0.0</Version>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
+		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
+		<Description>数据库访问基础类库 - MSSQL</Description>
 		<PackageReleaseNotes>无</PackageReleaseNotes>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<RepositoryUrl>https://github.com/doublefish/Adai.DbContext.git</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<Description>数据库访问基础类库 - MSSQL</Description>
 		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://github.com/doublefish/Adai.DbContext/</PackageProjectUrl>
 		<PackageIcon></PackageIcon>
 		<PackageTags>DbContext SqlClient Adai.DbContext.SqlClient</PackageTags>
+		<RepositoryUrl>https://github.com/doublefish/Adai.DbContext</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
