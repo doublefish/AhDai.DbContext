@@ -15,7 +15,7 @@
 		<!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<PackageTags>DbContext SqlClient AhDai.DbContext.SqlClient</PackageTags>
+		<PackageTags>AhDai;DbContext;SqlClient;MSSQL</PackageTags>
 		<RepositoryUrl>https://github.com/doublefish/AhDai.DbContext</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
