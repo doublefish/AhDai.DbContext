@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+		<Authors>Shuang Yu</Authors>
+		<Company>AhDai</Company>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<PackageProjectUrl>https://github.com/doublefish/AhDai.DbContext/</PackageProjectUrl>
+		<Description>数据库访问基础类库 - Oracle</Description>
+		<PackageReleaseNotes>无</PackageReleaseNotes>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
+		<PackageIcon></PackageIcon>
+		<!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageTags>DbContext Oracle AhDai.DbContext.Oracle</PackageTags>
+		<RepositoryUrl>https://github.com/doublefish/AhDai.DbContext</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>AhDai.DbContext.Oracle.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>AhDai.DbContext.Oracle.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AhDai.DbContext" Version="1.0.0" />
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.50" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1' ">
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0' ">
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0' ">
+	</ItemGroup>
+
+</Project>
