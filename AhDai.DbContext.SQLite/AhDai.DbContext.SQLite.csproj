@@ -10,7 +10,6 @@
 		<PackageProjectUrl>https://github.com/doublefish/AhDai.DbContext/</PackageProjectUrl>
 		<Description>数据库访问基础类库 - SQLite</Description>
 		<PackageReleaseNotes>无</PackageReleaseNotes>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Copyright>© Shuang Yu. All rights reserved.</Copyright>
 		<PackageIcon></PackageIcon>
 		<!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
@@ -19,6 +18,7 @@
 		<PackageTags>DbContext SQLite AhDai.DbContext.SQLite</PackageTags>
 		<RepositoryUrl>https://github.com/doublefish/AhDai.DbContext</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
