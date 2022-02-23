@@ -4,8 +4,7 @@
 建议在程序启动时调用初始化数据库连接信息方法
 建议引用命名空间，因为AhDai.DbContext有许多扩展方法在命名空间AhDai.DbContext下
 
-# 方式1：适用于AhDai.DbContext.数据类型的包
-例如：AhDai.DbContext.MySql
+方式1：适用于AhDai.DbContext.数据类型的包，例如：AhDai.DbContext.MySql
 
 AhDai.DbContext.DbHelper.Init(ICollection<Models.DbConfig> dbConfigs, Action<string, IDbCommand> beforeExecute = null);
 
