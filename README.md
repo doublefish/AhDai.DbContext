@@ -9,7 +9,7 @@
 
 AhDai.DbContext.DbHelper.Init(ICollection<Models.DbConfig> dbConfigs, Action<string, IDbCommand> beforeExecute = null);
 
-参数说明
+参数说明：
 
 dbConfigs 数据库配置
 
